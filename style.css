@@ -1,0 +1,103 @@
+body {
+  font-family: 'Open Sans';
+  font-size: 8px;
+  color: #272727;
+}
+
+header {
+  height: 7.5vh;
+  background-color: #009FB7;
+  box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,.1), inset 0 -1px 0 rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+}
+
+section {
+  position: relative;
+  top: 7.5vh;
+  height: 80vh;
+  text-align: center;
+}
+
+ul {
+  margin: 1rem;
+  list-style: circle;
+}
+
+li {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+main {
+  position: relative;
+  background-color: #e7e7e7;
+  top: 7.5vh;
+  border: 1px solid white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 8vh;
+}
+
+h2 {
+  font-size: 2.5rem;
+  border: 1px solid black;
+}
+
+span {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+  border: 1px solid black;
+}
+
+img {
+  width: 20vw;
+  height: auto;
+  margin: 2vw 0;
+}
+
+footer {
+  height: 5vh;
+  position: relative;
+  top: 7.5vh;
+  padding: 5vh 0;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.left, .right {
+  width: 35vw;
+  text-align: left;
+}
+
+.about {
+  display: flex;
+}
+
+.bio-left {
+  width: 30%;
+}
+
+.bio-right {
+  width: 70%;
+}
